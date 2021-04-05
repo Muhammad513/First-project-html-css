@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+body{
+    background-color: grey;
+    
+}
+.container{
+    width: 1180px;
+    height: 1625px;
+    background: black url(../img/fon.jpg) no-repeat;
+    background-size: 100% 30%;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.header{
+    width: 90%;
+    height: 140px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: 350px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+       
+}
+.logo h1{
+    font-size: 27px;
+    
+}
+.navbar{
+    width: 400px;
+    height: 120px;
+}
+.navbar ul {
+    width: 250px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:0;
+
+}
+.navbar ul li{
+    padding: 6px 7px;
+    border-radius: 3px;
+    margin: 0 7px;
+}
+.navbar ul li:hover{
+    background-color: darkorange;
+    
+    
+}
+.navbar a{
+    font-weight: bold;
+    
+}
+.navbar a:hover{
+    color: black;
+    opacity: 0.6;
+}
+.active{
+    background-color: darkorange;
+
+}
+.text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 70px;
+}
+hr{
+    width: 100px;
+    background-color: red;
+    
+    margin: 0 auto;
+    height: 3px;
+}
+.icon a{
+    font-size: 25px;
+    width: 40px;
+    padding: 20px 0 15px 15px;
+}
+.fa:hover{
+    opacity: 0.6;
+}
+.galery{
+    width: 80%;
+    height: 700px;
+   
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.photo1{
+    width: 80%;
+    height: 220px;
+   
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.photo1 img{
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 10px;
+}
+.gtext{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+}
+.contact{
+    width: 70%;
+    height: 300px;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px 50px;
+}
+.contact h2{
+    font-size: 30px;
+    
+}
+.ctext{
+    line-height: 40px;
+}
+.cicon a{
+    font-size: 30px;
+    padding: 20px;
+}
+.end{
+    background-color: slategrey;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
